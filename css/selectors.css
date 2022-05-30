@@ -1,4 +1,4 @@
-/* ~~~ CSS Main Selectors  ~~~*/
+/* ~~~ CSS Main Selectors (Specifity Hierarchy)  ~~~*/
 
 /* Element Selector */
 h1 {
@@ -17,3 +17,37 @@ h1 {
     color: blueviolet;
 }
 
+/* Inline CSS --
+<h2 class="subtitle" style="color: green;">Contact Us</h2> */
+
+/* ~~~ Pseudoselectors ~~~ */
+
+h1:hover {
+    color: brown;
+}
+
+li:first-child {
+    color: magenta;
+}
+
+li:last-child {
+    color: peru;
+}
+
+li:nth-child(2) {
+    color: seagreen;
+}
+
+/* li:only-child {
+    color: black;
+} */
+
+
+
+#sport-link:link{
+    color: blue;
+}
+
+#google-link:visited{
+    color: red;
+}
