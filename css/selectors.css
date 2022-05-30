@@ -1,0 +1,19 @@
+/* ~~~ CSS Main Selectors  ~~~*/
+
+/* Element Selector */
+h1 {
+    color: gold;
+}
+
+/* Class Selector */
+
+.subtitle {
+    color: slategray;
+}
+
+/* ID selector */
+
+#services {
+    color: blueviolet;
+}
+
