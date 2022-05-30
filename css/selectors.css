@@ -20,6 +20,7 @@ h1 {
 /* Inline CSS --
 <h2 class="subtitle" style="color: green;">Contact Us</h2> */
 
+
 /* ~~~ Pseudoselectors ~~~ */
 
 h1:hover {
@@ -38,9 +39,9 @@ li:nth-child(2) {
     color: seagreen;
 }
 
-/* li:only-child {
+ li:only-child {
     color: black;
-} */
+} 
 
 
 
@@ -51,3 +52,22 @@ li:nth-child(2) {
 #google-link:visited{
     color: red;
 }
+
+/* ~~~ Advanced Selectors ~~~ */
+
+h2 + a {
+    color: red;
+}
+
+textarea ~ button {
+    color: rgb(163, 161, 163);
+}
+
+ul > li {
+    color: salmon;
+}
+
+ul li {
+    color: brown;
+}
+
