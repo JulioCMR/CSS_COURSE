@@ -1,2 +1,6 @@
 #Ignore index.html (for now)
 index.html
+
+#HTML files
+html/
+

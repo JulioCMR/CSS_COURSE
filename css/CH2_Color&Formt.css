@@ -1,0 +1,15 @@
+/*  ~~~ Coloring Text ~~~ */
+
+/* Classic/Traditional */
+
+.color-traditional {
+    color: red;
+}
+
+.hex {
+    color: #0000ff;
+}
+
+#rgb {
+    color: rgb(255, 0, 0);
+}
