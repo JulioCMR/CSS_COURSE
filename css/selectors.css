@@ -7,9 +7,9 @@ h1 {
 
 /* Class Selector */
 
-.subtitle {
+/* .subtitle {
     color: slategray;
-}
+} */
 
 /* ID selector */
 
@@ -69,5 +69,33 @@ ul > li {
 
 ul li {
     color: brown;
+}
+
+/* ~~ Attribute selectors ~~ */
+
+h2[class=subtitle] {
+    color: blue;
+}
+
+img[src^="img/"] {
+
+    border: 5px solid black;
+}
+
+p[class$=roli] {
+    background: red;
+}
+
+p[class*="*"] {
+    color: green;
+}
+
+h2[class~=c3] {
+    background: blue;
+}
+
+h3[class|=guion] {
+    color: whitesmoke;
+    background: black;
 }
 
