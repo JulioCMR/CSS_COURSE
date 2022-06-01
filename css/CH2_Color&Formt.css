@@ -1,15 +1,32 @@
 /*  ~~~ Coloring Text ~~~ */
 
+body {
+    background: #c9c3c9;
+}
+
 /* Classic/Traditional */
 
 .color-traditional {
     color: red;
 }
 
+/* Hexadecimal */
 .hex {
     color: #0000ff;
 }
 
+/* rgb format */
 #rgb {
     color: rgb(255, 0, 0);
+}
+
+
+/* Background Color */
+
+#back-color {
+    background: #ea93ea;
+}
+
+.back-green {
+    background: #93eaaa;
 }
