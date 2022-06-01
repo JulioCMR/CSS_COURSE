@@ -21,7 +21,7 @@ body {
 }
 
 
-/* Background Color */
+/* ~~~ Background Color ~~~ */
 
 #back-color {
     background: #ea93ea;
@@ -29,4 +29,17 @@ body {
 
 .back-green {
     background: #93eaaa;
+}
+
+/* ~~~ Background image ~~~ */
+
+/* Local image */
+#back-image {
+    background: url("../img/beagles.jpg");
+}
+
+/* Internet image */
+.imgp {
+    background: url("https://as01.epimg.net/meristation/imagenes/2015/02/16/noticia/1424082600_173261_1532458530_portada_normal.jpg");
+    color: whitesmoke;
 }
