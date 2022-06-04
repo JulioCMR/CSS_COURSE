@@ -43,3 +43,57 @@ body {
     background: url("https://as01.epimg.net/meristation/imagenes/2015/02/16/noticia/1424082600_173261_1532458530_portada_normal.jpg");
     color: whitesmoke;
 }
+
+/* ~~~ Other Background Properties ~~~ */
+
+/* Repeat propert */
+
+/* Repeat (default)  */
+
+#repeat-prop {
+    height: 400px;
+    width: 70%;
+    background: url(../img/fat-cat.jpg);
+    background-repeat: repeat;
+    color: whitesmoke;
+}
+
+/* No-repeat */
+#non-repeat-prop {
+    height: 400px;
+    width: 70%;
+    background: url(../img/fat-cat.jpg);
+    background-repeat: no-repeat;
+    background-color: red;
+    color: whitesmoke;
+}
+
+/* background-size property */
+
+#size-normal {
+    height: 400px;
+    width: 70%;
+    background: url(../img/fat-cat.jpg);
+    background-size: 50px 100px;
+    color: whitesmoke;
+}
+
+/* Cover value */
+#size-cover {
+    height: 400px;
+    width: 70%;
+    background: url(../img/fat-cat.jpg);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+/* Cointain value */
+#size-contain {
+    height: 400px;
+    width: 70%;
+    background: url(../img/fat-cat.jpg);
+    background-size: contain;
+    color: whitesmoke;
+}
+
+
