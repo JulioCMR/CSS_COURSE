@@ -102,4 +102,18 @@ body {
     color: whitesmoke;
 }
 
+/* ~~~ Gradients ~~~ */
 
+#linear {
+    height: 400px;
+    width: 70%;
+
+    background: linear-gradient(180deg, red, rgba(0, 0, 0, 0.3));
+}
+
+.radio {
+    height: 400px;
+    width: 70%;
+
+    background: radial-gradient(circle, red 10%, black 25%, gray 50%);
+}
