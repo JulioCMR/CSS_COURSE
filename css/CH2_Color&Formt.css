@@ -20,6 +20,12 @@ body {
     color: rgb(255, 0, 0);
 }
 
+/* rgba (alpha for opacity and transparency */
+
+#rgba {
+    color: rgba(255, 0, 0, 0.4);
+}
+
 
 /* ~~~ Background Color ~~~ */
 
@@ -64,7 +70,7 @@ body {
     width: 70%;
     background: url(../img/fat-cat.jpg);
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: steelblue;
     color: whitesmoke;
 }
 
