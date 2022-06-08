@@ -5,6 +5,7 @@ body {
 
 /* ~~~ Type of Units (Exercises) ~~~ */
 
+/* Exercise 1: Absolutes */
 #absolute {
     height: 3cm;
     width: 100pt;
@@ -12,10 +13,60 @@ body {
     background: red;
 }
 
+/* Exercise 2: Relatives */
 #relative {
     height: 20vh;
     width: 10%;
     font-size: 2rem;
     background: blue;
 
+}   
+
+/* ~~~ Text Manipulation (Exercises) ~~~ */
+
+/* Exercise 1: text-decoration */
+#underline {
+    text-decoration: underline;
+}
+
+#overline {
+    text-decoration: overline;
+}
+
+#trought {
+    text-decoration: line-through;
+}
+
+/* Exercise 2: text-transform */
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Exercise 3: text-align */
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align:right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+/* Exercise 4: Justify alignment */
+
+.justify {
+    text-align: justify;
 }
