@@ -2,3 +2,20 @@
 body {
     background: #bcbfb5;
 }
+
+/* ~~~ Type of Units (Exercises) ~~~ */
+
+#absolute {
+    height: 3cm;
+    width: 100pt;
+    font-size: 30px;
+    background: red;
+}
+
+#relative {
+    height: 20vh;
+    width: 10%;
+    font-size: 2rem;
+    background: blue;
+
+}
