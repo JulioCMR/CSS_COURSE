@@ -9,3 +9,7 @@ Repository containing the exercises done in [CSS Tutorial - Zero to Hero (Comple
 ## Chapter 2: Coloring & Formatting
 
 ![Coloring & Formatting](img/CH2ColoringFormatting.png)
+
+## Chapter 3: Fonts & Text Manipulation
+
+![Fonts & Text Manipulation](img/CH3Font%26TextManip.png)
