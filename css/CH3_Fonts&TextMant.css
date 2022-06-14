@@ -71,7 +71,7 @@ body {
     text-align: justify;
 }
 
-/* ~~~ Font Size, Bolding & Style ~~~ */
+/* ~~~ Font Size, Bolding & Style (Exercises) ~~~ */
 
 /* Exercise 1: font-size */
 
@@ -105,4 +105,24 @@ body {
 
 #style-oblique {
     font-style: oblique 30deg;
+}
+
+/* ~~~~~ Font Families (Exercises) ~~~~~ */
+
+/* Exercise 1: Serif Font Family */
+
+.serif-family {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Exercise 2: Sans Serif Font Family */
+
+.sans-serif-family {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Exercise 3: Monospaced Font Family */
+
+#monospace-family {
+    font-family: 'Courier New', Courier, monospace;
 }
