@@ -1,0 +1,8 @@
+/* Font Face Rule for Roboto */
+@font-face {
+    font-family: Roboto;
+    src: url(/Fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/* Import Joan Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');

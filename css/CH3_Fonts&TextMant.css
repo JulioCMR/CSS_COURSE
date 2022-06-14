@@ -1,3 +1,9 @@
+/* Import Roboto Font */
+@import url(/css/fonts.css);
+
+/* Import Joan Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
 /* Default body style */
 body {
     background: #bcbfb5;
@@ -125,4 +131,23 @@ body {
 
 #monospace-family {
     font-family: 'Courier New', Courier, monospace;
+}
+
+/* ~~~~~ External Fonts (Exercises) ~~~~~ */
+
+/* Exercise 1: Roboto */
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Exercise 2: Fascinete */
+
+#fascinate {
+    font-family: "Fascinate", cursive;
+}
+
+/* Exercise 3: Joan */
+.joan {
+    font-family: "Joan", serif;    
 }
