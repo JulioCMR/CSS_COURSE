@@ -17,3 +17,15 @@ body {
     width: 70%;
     background: steelblue;
 }
+
+/* ~~~~~ Border Box (Exercises) ~~~~~ */
+
+/* Exercise 1 (Thin border) */
+.thin-border {
+    border: 0.3rem solid black;
+}
+
+/* Exercise 2 (Thick border) */
+.thick-border {
+    border: 30vh double #84d376;
+}
