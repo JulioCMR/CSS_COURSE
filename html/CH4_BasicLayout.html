@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julio Morales">
+    <meta name="description" content="Basic Layout(CSS Box Model) learning and Exercises">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Layout (Box Model)</title>
+
+    <!-- CSS 3 Favicon -->
+    <link rel="icon" href="../css.ico" type="img/x-icon">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="/css/CH4_BasicLayout.css">
+
+</head>
+<body>
+    <header>
+        <h1>Basic Layout (Box Model)</h1>
+
+        <p>The CSS Box Model is type of CSS layout that uses boxes that wraps around every HTML element. It consists in: content, padding, border and margin.</p>
+
+        <figure id="css-model">
+            <img src="https://ictacademy.com.ng/wp-content/uploads/2017/10/box-model.png" alt="CSS Box Model" title="CSS Box Model" width="370" height="313" loading="eager">
+            <figcaption>ictacademy.com</figcaption>
+        </figure>
+
+        <p>Explanation of different parts:</p>
+        <ul>
+            <li><p><strong>Content:</strong> The content of the box (text or an image).</p></li>
+            <li><p><strong>Padding:</strong> A clear internal area around the content. (Transparent)</p></li>
+            <li><p><strong>Border:</strong>A border that goes around the content and the padding.</p></li>
+            <li><p><strong>Margin:</strong>A clear external area outside the border. (Transparent)</p></li>
+        </ul>
+
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- ~~~~~ Start Content Section ~~~~~ -->
+        <section>
+            <h2>Content</h2>
+            <p>The main content of the element, it can be text or an image. There are two main properties: <strong>width</strong> and <strong>height</strong>. They will only change the characteristics of the content.</p>
+
+            <h3>Exercises</h3>
+
+            <ol>
+                <li><p>Change the width and height of an img element.</p></li>
+
+                <img src="/img/beagles.jpg" alt="beagles" title="beagles" id="orejudo">
+
+                <li><p>Change the width and height of a p element.</p></li>
+
+                <p class="para-content">It doesn't change the size of the text, it will only change the size of the content text box.</p>
+            </ol>
+        </section>
+        <!-- ~~~~~ End Content Section ~~~~~ -->
+
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            Copyright &copy; Julio Morales
+        </p>
+    </footer>
+    
+</body>
+</html>

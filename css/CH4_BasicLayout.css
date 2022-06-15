@@ -1,0 +1,19 @@
+/* Default body style */
+body {
+    background: #bcbfb5;
+}
+
+/* ~~~~~ Content Box (Exercises) ~~~~~ */
+
+/* Exercise 1 (Image) */
+#orejudo {
+    height: 400px;
+    width: 50%;
+}
+
+/* Exercise 2 (Paragraph) */
+.para-content {
+    height: 300px;
+    width: 70%;
+    background: steelblue;
+}
