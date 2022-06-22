@@ -3,6 +3,11 @@ body {
     background: #bcbfb5;
 }
 
+.resize-img {
+    height: 25rem;
+    width: 40rem;
+}
+
 /* ~~~~~ Content Box (Exercises) ~~~~~ */
 
 /* Exercise 1 (Image) */
@@ -28,4 +33,29 @@ body {
 /* Exercise 2 (Thick border) */
 .thick-border {
     border: 30vh double #84d376;
+}
+
+/* ~~~~~ Padding Box (Exercises) ~~~~~ */
+
+/* Exercise 1 (Total Padding) */
+.total-pad {
+    padding: 25vh;
+}
+
+/* Exercise 2 (Positional Padding) */
+#le-bot-padding {
+    padding-left: 15vh;
+    padding-bottom: 10vh;
+}
+
+
+/* Exercise 3 (Total Margin) */
+.total-margin {
+    margin: 10vw;
+}
+
+
+/* Exercise 2 (Summary Margin) */
+#ri-top-margin {
+    margin: 10vh 15vh 0 0;
 }
