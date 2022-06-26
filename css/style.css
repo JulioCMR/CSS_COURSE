@@ -2,3 +2,12 @@
 body {
     background: #bcbfb5;
 }
+
+.resize-img {
+    height: 20rem;
+    width: 35rem;
+}
+
+.bold-questions {
+    font-weight: 800;
+}
