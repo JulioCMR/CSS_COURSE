@@ -13,3 +13,7 @@ Repository containing the exercises done in [CSS Tutorial - Zero to Hero (Comple
 ## Chapter 3: Fonts & Text Manipulation
 
 ![Fonts & Text Manipulation](img/CH3Font%26TextManip.png)
+
+## Chapter 4: Basic Layout
+
+![Basic Layout](img/CH4BasicLayout.png)

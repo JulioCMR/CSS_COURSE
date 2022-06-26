@@ -4,8 +4,8 @@ body {
 }
 
 .resize-img {
-    height: 25rem;
-    width: 40rem;
+    height: 20rem;
+    width: 35rem;
 }
 
 /* ~~~~~ Content Box (Exercises) ~~~~~ */
@@ -58,4 +58,36 @@ body {
 /* Exercise 2 (Summary Margin) */
 #ri-top-margin {
     margin: 10vh 15vh 0 0;
+}
+
+/* ~~~~~ Display (Exercises) ~~~~~ */
+
+/* Exercise 1: inline */
+.inline-para {
+    display: inline;
+}
+
+/* Exercise 2: block */
+.block-para {
+    display: block;
+}
+
+/* Exercise 3: inline-block */
+#inline-block-para {
+    display: inline-block;
+}
+
+/* ~~~~~ Float (Exercises) ~~~~~ */
+
+/* Exercise 1: Float right */
+.float-right {
+    float: right;
+}
+
+/* Exercise 2: Float Left */
+#float-left {
+    float: left;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 80%;
 }
