@@ -45,5 +45,28 @@ body {
     display: flex;
 }
 
+/* --- Flex Direction & Wrap --- */
+
+/* Exercise 1 (Flex-direction column) */
+
+.flex-column {
+    flex-direction: column;
+}
+
+/* Exercise 2  (flex-direction reverse-row*/
+.reverse-row {
+    flex-direction: row-reverse;
+}
+
+/* Exercise 3 (flex-wrap) */
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* Exercise 4 (reverse-wrap) */
+#reverse-wrap {
+    flex-wrap: wrap-reverse;
+}
+
 
 /* ~~~~~ End Exercises ~~~~~~ */
