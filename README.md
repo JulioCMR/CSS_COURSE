@@ -17,3 +17,7 @@ Repository containing the exercises done in [CSS Tutorial - Zero to Hero (Comple
 ## Chapter 4: Basic Layout
 
 ![Basic Layout](img/CH4BasicLayout.png)
+
+## Chapter 5: Flexbox
+
+![Flexbox](img/CH5Flexbox.png)
