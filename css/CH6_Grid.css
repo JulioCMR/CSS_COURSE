@@ -1,0 +1,13 @@
+/* Default body style */
+body {
+    background: #bcbfb5;
+}
+
+.resize-img {
+    height: 20rem;
+    width: 35rem;
+}
+
+.bold-question {
+    font-weight: 800;
+}
