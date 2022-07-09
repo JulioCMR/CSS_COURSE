@@ -257,6 +257,56 @@
             </ol>
         </section>
 
+        
+
+        <section>
+            <h2>Shrink, Grow and Basis</h2>
+            <h3>Questions</h3>
+                <ul>
+                    <li class="bold-question">What the flex-basis property is used for?</li>
+
+                    <p>It's used for set the base width of one or several flex-items.</p>
+
+                    <li class="bold-question">What the flex-grow property is used for?</li>
+
+                    <p>It's used for set how much a flex-item will grow relative to other items and the size of the viewport.</p>
+                    <li class="bold-question">What the flex-shrink property is used for?</li>
+
+                    <p>It's used for set how much a flex-item will shrink relative to other items and the size of the viewport.</p>
+                    
+                    <li class="bold-question">Explain how the above properties help you to create a responsive web page.</li>
+
+                    <p>
+                        I can look it in two ways:
+                        <br>
+                        <ul>
+                            <li>In the browser window, each time you resize the window, the items on the web page will adapt and they will shrink or grow, depending of the size of the windows..</li>
+                            <li>Looking on the different devices shapes viewpoint, the same adapt (shrink or grow) basis is used, this without creating device-specific code.</li>
+                        </ul>
+                    </p>
+
+                </ul>
+            
+            <h3>Exercises</h3>  
+                <ol>
+                    <li class="bold-question">Exercise 1</li>
+                    <ol type="A">
+                        <li class="bold-question">Create a container that has all its flex-items with a base of 100px.</li>
+                        <li class="bold-question">Make the D Flex-Item grow 3 times larger than the others.</li>
+                        <li class="bold-question">Make the A Flex-Item shrink 3 times more, and all the other items shrink by 1.</li>
+                    </ol>
+
+                    <div class="container chunky total-center">
+                        <div class="container-item" style="flex-basis: 100px; flex-grow: 0; flex-shrink: 3;">A</div>
+                        <div class="container-item" style="flex-basis: 100px; flex-grow: 0; flex-shrink: 1;">B</div>
+                        <div class="container-item" style="flex-basis: 100px; flex-grow: 0; flex-shrink: 1;">C</div>
+                        <div class="container-item" style="flex-basis: 100px; flex-grow: 3; flex-shrink: 1;">D</div>
+                        <div class="container-item" style="flex-basis: 100px; flex-grow: 0; flex-shrink: 1;">E</div>
+                    </div>
+                </ol>
+            
+        </section>
+
     </main>
 
     <hr>
