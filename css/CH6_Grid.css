@@ -58,3 +58,18 @@ body {
 .grid-container {
     display: grid;
 }
+
+/* - Templates Columns & Rows - */
+
+/* Exercise 1 */
+
+.table-4l2 {
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+/* Exercise 2 */
+.table-2l2 {
+    grid-template-columns: 5rem auto;
+    grid-template-rows: 5rem auto;
+}
