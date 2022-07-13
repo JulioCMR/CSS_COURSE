@@ -73,3 +73,35 @@ body {
     grid-template-columns: 5rem auto;
     grid-template-rows: 5rem auto;
 }
+
+/* - Justify & Align Grid - */
+
+/* Exercise 1 */
+
+#low-right {
+    justify-content: end;
+    align-content: end;   
+}
+
+/* Exercise 2 */
+.center {
+    justify-content: center;
+    align-content: center;
+}
+
+/* - Rows & Columns Gaps - */
+
+/* Exercise 1 */
+.plus-columns-rows {
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-column-gap: 500px;
+    grid-row-gap: 110px;
+}
+
+/* Exercise 2 */
+.less-columns-rows {
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-gap: 0px 0px;
+}
