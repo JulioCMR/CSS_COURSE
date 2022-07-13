@@ -52,6 +52,18 @@ body {
     background: rgb(140, 210, 255);
 }
 
+.grid-container div:nth-of-type(6) {
+    background: #309b32;
+}
+
+.grid-container div:nth-of-type(7) {
+    background: #9b4e30;
+}
+
+.grid-container div:nth-of-type(8) {
+    background: #97309b;
+}
+
 /* --- Exercises --- */
 
 /* Creating a Grid (Exercise 1) */
@@ -104,4 +116,18 @@ body {
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px;
     grid-gap: 0px 0px;
+}
+
+/* - Column & Row Lines - */
+
+/* Exercise 1 */
+.resize-item {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+/* Exercise 2 */
+#resize-item-span {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
 }
