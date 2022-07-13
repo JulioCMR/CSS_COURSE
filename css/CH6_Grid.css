@@ -131,3 +131,10 @@ body {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
+
+/* - Grid Area - */
+
+/* Exercise 1 */
+.resize-area {
+    grid-area: 1 / 1 / span 2 / span 3; 
+}
