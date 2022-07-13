@@ -21,3 +21,7 @@ Repository containing the exercises done in [CSS Tutorial - Zero to Hero (Comple
 ## Chapter 5: Flexbox
 
 ![Flexbox](img/CH5Flexbox.png)
+
+## Chapter 6: Grid
+
+![Grid](img/CH6Grid.png)
