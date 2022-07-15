@@ -23,17 +23,17 @@
     <hr>
 
     <main>
-
+        <!-- Transition Property -->
         <section>
-            <h2>The Transition property</h2>
+            <h2>The Transition Property</h2>
             
             <h3>Questions</h3>
             <ul>
-                <li class="bold-question">What the transition property is used for?</li>
+                <li class="bold">What the transition property is used for?</li>
 
                 <p>It's a property used to style the transitional changes of properties. Example: Transitions on hovers.</p>
 
-                <li class="bold-question">What are the -webkit-, -moz- and -o- property prefixes are used for?</li> 
+                <li class="bold">What are the -webkit-, -moz- and -o- property prefixes are used for?</li> 
 
                 <p>They are used to specify which browsers will use certain properties. Example: Webkit: IE and Safari, moz: Firefox, o: Opera. Used to work with older browsers versions.</p>
 
@@ -44,10 +44,10 @@
                 <li class="bold-question">Exercise 1</li>
                 <p>Create a button transition with:</p>
                 <ol>
-                    <li class="bold-question">A hover transition on color.</li>
-                    <li class="bold-question">A duration of 5s.</li>
-                    <li class="bold-question">An ease style.</li>
-                    <li class="bold-question">No delay.</li>
+                    <li class="bold">A hover transition on color.</li>
+                    <li class="bold">A duration of 5s.</li>
+                    <li class="bold">An ease style.</li>
+                    <li class="bold">No delay.</li>
                 </ol>
 
                 <button type="button" class="submit-button trans-color">Submit</button>
@@ -55,13 +55,13 @@
             </ol>
 
             <ol>
-                <li class="bold-question">Exercise 2</li>
+                <li class="bold">Exercise 2</li>
                 <p>Create a button transition with:</p>
                 <ol>
-                    <li class="bold-question">A hover transition on size.</li>
-                    <li class="bold-question">A duration of 10s.</li>
-                    <li class="bold-question">A linear style.</li>
-                    <li class="bold-question">5s delay.</li>
+                    <li class="bold">A hover transition on size.</li>
+                    <li class="bold">A duration of 500ms.</li>
+                    <li class="bold">A linear style.</li>
+                    <li class="bold">2s delay.</li>
                 </ol>
                 
                 <button type="button" class="submit-button trans-size">Submit</button>
@@ -73,20 +73,67 @@
 
         
 
-
+        <!-- Transformation Functions -->
         <section>
-            <h2>The Transition property</h2>
+            <h2>Transformation Functions</h2>
             
             <h3>Questions</h3>
             <ul>
-                <li class="bold-question"></li> 
-                <p></p>
+                <li class="bold">what the transformation property is used for?</li> 
+                <p>It's a property that uses functions to modify the "physical" characteristics of an element.</p>
+
+                <li class="bold">What are the functions used by the transformation property? </li> 
+                <p>translate(), scale(), rotate(deg), skew(), matrix(), and their X and Y derivatives.</p>
+
+                <li class="bold">Mention what each of the transformation property functions does.</li>
+
+                <p>
+                    <span class="bold">translate():</span> Modify the position of an element. <br>
+                    <span class="bold">scale():</span> Change the size of an element. <br>
+                    <span class="bold">rotate():</span> Change the rotation degree of an element. <br>
+                    <span class="bold">skew()</span> Change the skewness of an element. <br>
+                    <span class="bold">matrix():</span> Shorthand property that summarize all the above properties.
+                    
+
+                </p>
             </ul>
 
             <h3>Exercises</h3>
             <ol>
-                <li class="bold-question"></li>
+                <li class="bold">Exercise 1</li>
+
+                <p>Transform 4 different button elements with the transform property and it's functions, using the following characteristics:</p>
+                <ol type="A">
+                    <li class="bold">A translation of 500px(X axis) and -50px(Y axis).</li>
+                    <li class="bold">A scale of 2.</li>
+                    <li class="bold">A rotation of 180deg.</li>
+                    <li class="bold">A Skewness(X axis) of 60deg.</li>
+                </ol>
+
+                <button type="button" class="submit-button" id="transform-trans">Submit</button>
+                <br>
+                <button type="button" class="submit-button transform-scale">Submit</button>
+                <br>
+                <button type="button" class="submit-button transform-rotate">Submit</button>
+                <br>
+                <button type="button" class="submit-button" id="transform-skew">Submit</button>
+
+                <li class="bold">Exercise 2</li>
+
+                <p>Transform a button element with the transform property and it's matrix() functions, using the following characteristics:</p>
+                <ol type="A">
+                    <li class="bold">A translation of 700px(X axis) and -55px(Y axis).</li>
+                    <li class="bold">A scale of 3 (X and Y axis).</li>
+                    <li class="bold">A Skewness(Y axis) of 0.45</li>
+                </ol>
+                
+
+                <button type="button" class="submit-button trans-matrix">Submit</button>
+
             </ol>
+
+            <br>
+
         </section>
 
         <section>
