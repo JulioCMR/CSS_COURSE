@@ -1,0 +1,63 @@
+/* Default body style */
+body {
+    background: #bcbfb5;
+}
+
+.resize-img {
+    height: 20rem;
+    width: 35rem;
+}
+
+.bold-question {
+    font-weight: 800;
+}
+
+/* Form Style */
+
+.subtitle {
+    color: rgb(200, 148, 30);
+    font-family: "Sarabun", sans-serif;
+}
+
+input, textarea {
+    display: block;
+    margin: 10px;
+}
+
+.submit-button {
+    margin: 20px 10px;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 1.03rem;
+    color: white;
+    background: rgb(89, 150, 255);
+}
+
+
+/* ----- Exercises ----- */
+
+/* - The Transition Property - */
+
+/* Exercise 1 */
+
+.trans-color:hover {
+    background: rgb(147, 187, 255);
+}
+
+
+.trans-color {
+    transition: background 5s ease;
+}
+
+/* Exercise 2 */
+
+.trans-size:hover{
+    padding: 20px 30px;
+}
+
+.trans-size {
+    transition: padding 10s linear 5s;
+}
