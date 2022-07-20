@@ -88,3 +88,36 @@ input, textarea {
 .trans-matrix {
     transform: matrix(3, 0, 0.45, 3, 700, -55);
 }
+
+/* - Creating animations w/ Keyframes - */
+
+
+
+
+/* Exercise 1 */
+
+#animation-color-position {
+    /* animation-name: red-to-black;
+    animation-duration: 5s
+    animation-timing: ease
+    animation-iteration-count: 3
+    animation-direction: reverse*/
+    animation: red-to-gray 5s ease 0s 3 reverse;
+}
+
+@keyframes red-to-gray {
+    0% {
+        background: red;
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        background: yellow;
+        transform: translate(10px, 10px);
+    }
+
+    100% {
+        background: gray;
+        transform: translate(20px, 20px);
+    }
+}
