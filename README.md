@@ -25,3 +25,7 @@ Repository containing the exercises done in [CSS Tutorial - Zero to Hero (Comple
 ## Chapter 6: Grid
 
 ![Grid](img/CH6Grid.png)
+
+## Chapter 7: Animations & Transitions
+
+![Animations & Transitions](img/CH7Animations.png)
